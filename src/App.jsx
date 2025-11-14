@@ -9,15 +9,15 @@ import Footer from "./componants/foteer/Footer";
 const App = () => {
   return (
     <div>
-      {/* <div
+      <div
         className=" w-full min-h-screen bg-cover bg-no-repeat bg-center bg-fixed "
         style={{
           backgroundImage: `linear-gradient(135deg, rgb(2 23 78) 0%, rgb(10 110 80 / 21%) 100%), url(./home.png)`,
         }}
-      > */}
-      <Nav />
-      <Home />
-      {/* </div> */}
+      >
+        <Nav />
+        <Home />
+      </div>
 
       <About />
       <Service />
