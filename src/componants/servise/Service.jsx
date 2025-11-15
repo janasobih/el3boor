@@ -30,7 +30,7 @@ const Service = () => {
   ];
 
   return (
-    <div className="flex flex-col gap-20 p-20 items-center">
+    <div id="services" className="flex flex-col gap-20 p-20 items-center">
       <div className="flex flex-col gap-10 justify-center items-center text-[#164e63]  text-center p-10 pb-0">
         <p className=" w-fit text-4xl font-bold border-b-2 border-solid border-[#a7a9aa]">
           خدماتنا

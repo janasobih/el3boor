@@ -18,26 +18,11 @@ const Footer = () => {
           <div className="flex flex-row-reverse flex-wrap justify-evenly text-right">
             <div className="flex flex-col justify-center items-center">
               <h3 className="text-2xl font-bold  text-white mb-4">
-                شركة التميز
+                شركة العبور للشحن
               </h3>
               <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
-                نحن شركة رائدة في مجال التكنولوجيا والحلول الرقمية، نقدم خدمات
-                مبتكرة تلبي احتياجات عملائنا بأعلى معايير الجودة والاحترافية.
+                نقدم لكم خدمات شحن سريعة وآمنة بأسعار تنافسية. تواصل معنا الآن!
               </p>
-              <div className="flex gap-4">
-                <div className="bg-white/10 backdrop-blur-lg rounded-xl p-3 hover:bg-cyan-500/20 transition-all duration-300 cursor-pointer border border-white/10">
-                  <FaFacebookF className="text-cyan-400 text-lg" />
-                </div>
-                <div className="bg-white/10 backdrop-blur-lg rounded-xl p-3 hover:bg-blue-500/20 transition-all duration-300 cursor-pointer border border-white/10">
-                  <FaTwitter className="text-blue-400 text-lg" />
-                </div>
-                <div className="bg-white/10 backdrop-blur-lg rounded-xl p-3 hover:bg-pink-500/20 transition-all duration-300 cursor-pointer border border-white/10">
-                  <FaInstagram className="text-pink-400 text-lg" />
-                </div>
-                <div className="bg-white/10 backdrop-blur-lg rounded-xl p-3 hover:bg-blue-600/20 transition-all duration-300 cursor-pointer border border-white/10">
-                  <FaLinkedinIn className="text-blue-300 text-lg" />
-                </div>
-              </div>
             </div>
 
             <div>
@@ -45,7 +30,7 @@ const Footer = () => {
                 روابط سريعة
               </h4>
               <ul className="space-y-3">
-                {["الرئيسية", "من نحن", "الخدمات", "المشاريع", "اتصل بنا"].map(
+                {["الرئيسية", "نبذه عنا ", "الخدمات", "اتصل بنا"].map(
                   (item, index) => (
                     <li key={index}>
                       <a
@@ -93,7 +78,7 @@ const Footer = () => {
                     <FaEnvelope className="text-cyan-400 text-sm" />
                   </div>
                   <div>
-                    <p className="text-gray-300 text-sm">info@company.com</p>
+                    <p className="text-gray-300 text-sm">el3boor@company.com</p>
                     <p className="text-gray-400 text-xs">الرد خلال 24 ساعة</p>
                   </div>
                 </div>
@@ -107,7 +92,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="text-center">
             <p className="text-gray-400 text-sm">
-              © 2024 شركة التميز. جميع الحقوق محفوظة.
+              © 2025 شركة العبور للشحن. جميع الحقوق محفوظة.
             </p>
           </div>
         </div>
